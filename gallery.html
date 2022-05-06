@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container header__container">
+            <img src="img/emblem.jpg" alt="logo" width="100" height="70">
+            <nav>
+                <ul class="navbar__ul">
+                    <li><a class="navbar__a" href="index.html">Home</a></li>
+    
+                    <li><a class="navbar__a" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="navbar__a" href="gallery.html">Gallery</a></li>
+                    <li><a class="navbar__a" href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__content">
+                <h2>PRIVATE ORGANIZATION web page</h2>
+                <p>This is the personal web page Kadirov Muzaffar Abidovich</p>
+            </div>
+        </div>
+    </header>
+    <main class="container mt-4">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html">Contacts</a>
+              </li>  
+            </ul>
+          </div>
+        </div>
+        <div id="header"></div>
+        <div id="gallery" class="row row-cols-md-3"></div>
+      <!---Modal --->
+      <div class="modal fade bg-dark" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content bd-info">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Image Gallery with Carousel</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                
+                <!-- Carousel -->
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                  <!-- Indicators/dots -->
+                  <div id='divButton' class="carousel-indicators">
+                    
+                  </div>
+
+                  <!-- The slideshow/carousel -->
+                  <div id='divSlide' class="carousel-inner">
+ 
+                  </div>
+
+                  <!-- Left and right controls/icons -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
+                </div>
+
+              <!---End Carousel --->
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <h4><img src="img/emblem.jpg" style="width:100px"></h4>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    
+    </main>
+    
+                <footer>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
